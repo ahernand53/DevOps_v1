@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   override:
-    - docker build -t app_node
+    - docker build -t app_node .
 
 
 test:
